@@ -117,7 +117,6 @@
 				96DD572921A57E5D00BA1102 /* Model */,
 				96DD571621A554D100BA1102 /* Service */,
 				9609994821998DDF006B6D62 /* Presentation */,
-				96DD571C21A5576B00BA1102 /* SplashScreen */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -151,6 +150,7 @@
 				96DD572421A57AD900BA1102 /* TaskThreeScreen */,
 				96DD571F21A5700D00BA1102 /* TaskTwoScreen */,
 				96DD571921A5572D00BA1102 /* TaskOneScreen */,
+				96DD571C21A5576B00BA1102 /* SplashScreen */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
