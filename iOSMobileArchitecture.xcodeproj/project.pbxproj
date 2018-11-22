@@ -11,30 +11,11 @@
 		9609993821998CAD006B6D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9609993721998CAD006B6D62 /* Assets.xcassets */; };
 		9609995321998FFE006B6D62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9609995221998FFE006B6D62 /* LaunchScreen.storyboard */; };
 		96DD570721A43E9500BA1102 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DD570621A43E9500BA1102 /* SplashScreen.storyboard */; };
-		96DD571821A5553100BA1102 /* TaskOneService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD571721A5553100BA1102 /* TaskOneService.swift */; };
-		96DD571B21A5574500BA1102 /* TaskOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD571A21A5574500BA1102 /* TaskOneViewController.swift */; };
 		96DD571E21A5577A00BA1102 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD571D21A5577A00BA1102 /* SplashViewController.swift */; };
-		96DD572121A5703400BA1102 /* TaskTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD572021A5703400BA1102 /* TaskTwoViewController.swift */; };
-		96DD572321A570A200BA1102 /* TaskTwoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD572221A570A200BA1102 /* TaskTwoService.swift */; };
-		96DD572621A57B2800BA1102 /* TaskThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD572521A57B2800BA1102 /* TaskThreeViewController.swift */; };
-		96DD572821A57BA600BA1102 /* TaskThreeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD572721A57BA600BA1102 /* TaskThreeService.swift */; };
-		96DD573121A5958100BA1102 /* TaskFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD573021A5958100BA1102 /* TaskFourViewController.swift */; };
-		96DD573621A5A2CB00BA1102 /* TaskFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD573521A5A2CB00BA1102 /* TaskFiveViewController.swift */; };
-		96DD573E21A5A92800BA1102 /* TaskOneScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DD573D21A5A92800BA1102 /* TaskOneScreen.storyboard */; };
-		96DD574021A5ADD700BA1102 /* TaskThreeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DD573F21A5ADD700BA1102 /* TaskThreeScreen.storyboard */; };
-		96DD574221A5AE7400BA1102 /* TaskFourScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DD574121A5AE7400BA1102 /* TaskFourScreen.storyboard */; };
-		96DD574421A68E2900BA1102 /* TaskFiveScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DD574321A68E2900BA1102 /* TaskFiveScreen.storyboard */; };
-		96DD574D21A6A3E400BA1102 /* APIRequestBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD574C21A6A3E300BA1102 /* APIRequestBody.swift */; };
-		96DD574F21A6A3F700BA1102 /* RestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD574E21A6A3F700BA1102 /* RestAPI.swift */; };
-		96DD575321A6A4EC00BA1102 /* RestAPITransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD575121A6A4EC00BA1102 /* RestAPITransport.swift */; };
-		96DD575621A6A51900BA1102 /* Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD575521A6A51900BA1102 /* Problem.swift */; };
-		96DD575821A6A5A900BA1102 /* TaskOneRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD575721A6A5A900BA1102 /* TaskOneRequest.swift */; };
-		96DD575B21A6A5DD00BA1102 /* GlobalDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD575A21A6A5DD00BA1102 /* GlobalDefinitions.swift */; };
-		96DD575D21A6B6F500BA1102 /* TaskOneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD575C21A6B6F500BA1102 /* TaskOneViewModel.swift */; };
-		96DD575F21A6CD6700BA1102 /* TaskTwoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD575E21A6CD6700BA1102 /* TaskTwoViewModel.swift */; };
-		96DD576121A6CFBB00BA1102 /* TaskTwoScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DD576021A6CFBB00BA1102 /* TaskTwoScreen.storyboard */; };
-		96DD576321A6D29600BA1102 /* TaskThreeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD576221A6D29600BA1102 /* TaskThreeViewModel.swift */; };
-		96DD576721A6DB5B00BA1102 /* TaskFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD576621A6DB5B00BA1102 /* TaskFive.swift */; };
+		96DD576921A6E18100BA1102 /* NetworkReachabilityScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DD576821A6E18100BA1102 /* NetworkReachabilityScreen.storyboard */; };
+		96DD576C21A6E1B200BA1102 /* NetworkReachabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD576B21A6E1B200BA1102 /* NetworkReachabilityViewController.swift */; };
+		96DD576E21A6E1C900BA1102 /* NetworkReachabilityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD576D21A6E1C900BA1102 /* NetworkReachabilityViewModel.swift */; };
+		96DD577021A6E22700BA1102 /* NetworkReachabilityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD576F21A6E22700BA1102 /* NetworkReachabilityService.swift */; };
 		ECE0B2222106FD84980678B5 /* Pods_iOSMobileArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA96BDAD5B09FB873090C8F /* Pods_iOSMobileArchitecture.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,30 +28,11 @@
 		9609993C21998CAD006B6D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9609995221998FFE006B6D62 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96DD570621A43E9500BA1102 /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
-		96DD571721A5553100BA1102 /* TaskOneService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskOneService.swift; sourceTree = "<group>"; };
-		96DD571A21A5574500BA1102 /* TaskOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskOneViewController.swift; sourceTree = "<group>"; };
 		96DD571D21A5577A00BA1102 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
-		96DD572021A5703400BA1102 /* TaskTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTwoViewController.swift; sourceTree = "<group>"; };
-		96DD572221A570A200BA1102 /* TaskTwoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTwoService.swift; sourceTree = "<group>"; };
-		96DD572521A57B2800BA1102 /* TaskThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskThreeViewController.swift; sourceTree = "<group>"; };
-		96DD572721A57BA600BA1102 /* TaskThreeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskThreeService.swift; sourceTree = "<group>"; };
-		96DD573021A5958100BA1102 /* TaskFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFourViewController.swift; sourceTree = "<group>"; };
-		96DD573521A5A2CB00BA1102 /* TaskFiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFiveViewController.swift; sourceTree = "<group>"; };
-		96DD573D21A5A92800BA1102 /* TaskOneScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TaskOneScreen.storyboard; sourceTree = "<group>"; };
-		96DD573F21A5ADD700BA1102 /* TaskThreeScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TaskThreeScreen.storyboard; sourceTree = "<group>"; };
-		96DD574121A5AE7400BA1102 /* TaskFourScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TaskFourScreen.storyboard; sourceTree = "<group>"; };
-		96DD574321A68E2900BA1102 /* TaskFiveScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TaskFiveScreen.storyboard; sourceTree = "<group>"; };
-		96DD574C21A6A3E300BA1102 /* APIRequestBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestBody.swift; sourceTree = "<group>"; };
-		96DD574E21A6A3F700BA1102 /* RestAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestAPI.swift; sourceTree = "<group>"; };
-		96DD575121A6A4EC00BA1102 /* RestAPITransport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestAPITransport.swift; sourceTree = "<group>"; };
-		96DD575521A6A51900BA1102 /* Problem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem.swift; sourceTree = "<group>"; };
-		96DD575721A6A5A900BA1102 /* TaskOneRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskOneRequest.swift; sourceTree = "<group>"; };
-		96DD575A21A6A5DD00BA1102 /* GlobalDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalDefinitions.swift; sourceTree = "<group>"; };
-		96DD575C21A6B6F500BA1102 /* TaskOneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskOneViewModel.swift; sourceTree = "<group>"; };
-		96DD575E21A6CD6700BA1102 /* TaskTwoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTwoViewModel.swift; sourceTree = "<group>"; };
-		96DD576021A6CFBB00BA1102 /* TaskTwoScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TaskTwoScreen.storyboard; sourceTree = "<group>"; };
-		96DD576221A6D29600BA1102 /* TaskThreeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskThreeViewModel.swift; sourceTree = "<group>"; };
-		96DD576621A6DB5B00BA1102 /* TaskFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFive.swift; sourceTree = "<group>"; };
+		96DD576821A6E18100BA1102 /* NetworkReachabilityScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NetworkReachabilityScreen.storyboard; sourceTree = "<group>"; };
+		96DD576B21A6E1B200BA1102 /* NetworkReachabilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityViewController.swift; sourceTree = "<group>"; };
+		96DD576D21A6E1C900BA1102 /* NetworkReachabilityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityViewModel.swift; sourceTree = "<group>"; };
+		96DD576F21A6E22700BA1102 /* NetworkReachabilityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityService.swift; sourceTree = "<group>"; };
 		ACA96BDAD5B09FB873090C8F /* Pods_iOSMobileArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSMobileArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -133,10 +95,6 @@
 		9609994221998D5F006B6D62 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				96DD576421A6DB4000BA1102 /* Misc */,
-				96DD575921A6A5D000BA1102 /* GlobalDefinitions */,
-				96DD575021A6A4EC00BA1102 /* Transport */,
-				96DD572921A57E5D00BA1102 /* Model */,
 				96DD571621A554D100BA1102 /* Service */,
 				9609994821998DDF006B6D62 /* Presentation */,
 			);
@@ -159,11 +117,7 @@
 			children = (
 				9609995221998FFE006B6D62 /* LaunchScreen.storyboard */,
 				96DD570621A43E9500BA1102 /* SplashScreen.storyboard */,
-				96DD573D21A5A92800BA1102 /* TaskOneScreen.storyboard */,
-				96DD576021A6CFBB00BA1102 /* TaskTwoScreen.storyboard */,
-				96DD573F21A5ADD700BA1102 /* TaskThreeScreen.storyboard */,
-				96DD574121A5AE7400BA1102 /* TaskFourScreen.storyboard */,
-				96DD574321A68E2900BA1102 /* TaskFiveScreen.storyboard */,
+				96DD576821A6E18100BA1102 /* NetworkReachabilityScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -171,11 +125,7 @@
 		9609994821998DDF006B6D62 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				96DD573421A5A2B800BA1102 /* TaskFiveScreen */,
-				96DD572F21A5956B00BA1102 /* TaskFourScreen */,
-				96DD572421A57AD900BA1102 /* TaskThreeScreen */,
-				96DD571F21A5700D00BA1102 /* TaskTwoScreen */,
-				96DD571921A5572D00BA1102 /* TaskOneScreen */,
+				96DD576A21A6E18A00BA1102 /* NetworkReachabilityScreen */,
 				96DD571C21A5576B00BA1102 /* SplashScreen */,
 			);
 			path = Presentation;
@@ -184,21 +134,9 @@
 		96DD571621A554D100BA1102 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				96DD574E21A6A3F700BA1102 /* RestAPI.swift */,
-				96DD571721A5553100BA1102 /* TaskOneService.swift */,
-				96DD572221A570A200BA1102 /* TaskTwoService.swift */,
-				96DD572721A57BA600BA1102 /* TaskThreeService.swift */,
+				96DD576F21A6E22700BA1102 /* NetworkReachabilityService.swift */,
 			);
 			path = Service;
-			sourceTree = "<group>";
-		};
-		96DD571921A5572D00BA1102 /* TaskOneScreen */ = {
-			isa = PBXGroup;
-			children = (
-				96DD571A21A5574500BA1102 /* TaskOneViewController.swift */,
-				96DD575C21A6B6F500BA1102 /* TaskOneViewModel.swift */,
-			);
-			path = TaskOneScreen;
 			sourceTree = "<group>";
 		};
 		96DD571C21A5576B00BA1102 /* SplashScreen */ = {
@@ -209,96 +147,13 @@
 			path = SplashScreen;
 			sourceTree = "<group>";
 		};
-		96DD571F21A5700D00BA1102 /* TaskTwoScreen */ = {
+		96DD576A21A6E18A00BA1102 /* NetworkReachabilityScreen */ = {
 			isa = PBXGroup;
 			children = (
-				96DD572021A5703400BA1102 /* TaskTwoViewController.swift */,
-				96DD575E21A6CD6700BA1102 /* TaskTwoViewModel.swift */,
+				96DD576B21A6E1B200BA1102 /* NetworkReachabilityViewController.swift */,
+				96DD576D21A6E1C900BA1102 /* NetworkReachabilityViewModel.swift */,
 			);
-			path = TaskTwoScreen;
-			sourceTree = "<group>";
-		};
-		96DD572421A57AD900BA1102 /* TaskThreeScreen */ = {
-			isa = PBXGroup;
-			children = (
-				96DD572521A57B2800BA1102 /* TaskThreeViewController.swift */,
-				96DD576221A6D29600BA1102 /* TaskThreeViewModel.swift */,
-			);
-			path = TaskThreeScreen;
-			sourceTree = "<group>";
-		};
-		96DD572921A57E5D00BA1102 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				96DD574B21A6A2EA00BA1102 /* RequestBody */,
-				96DD572A21A57E6900BA1102 /* Error */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		96DD572A21A57E6900BA1102 /* Error */ = {
-			isa = PBXGroup;
-			children = (
-				96DD575521A6A51900BA1102 /* Problem.swift */,
-			);
-			path = Error;
-			sourceTree = "<group>";
-		};
-		96DD572F21A5956B00BA1102 /* TaskFourScreen */ = {
-			isa = PBXGroup;
-			children = (
-				96DD573021A5958100BA1102 /* TaskFourViewController.swift */,
-			);
-			path = TaskFourScreen;
-			sourceTree = "<group>";
-		};
-		96DD573421A5A2B800BA1102 /* TaskFiveScreen */ = {
-			isa = PBXGroup;
-			children = (
-				96DD573521A5A2CB00BA1102 /* TaskFiveViewController.swift */,
-			);
-			path = TaskFiveScreen;
-			sourceTree = "<group>";
-		};
-		96DD574B21A6A2EA00BA1102 /* RequestBody */ = {
-			isa = PBXGroup;
-			children = (
-				96DD574C21A6A3E300BA1102 /* APIRequestBody.swift */,
-				96DD575721A6A5A900BA1102 /* TaskOneRequest.swift */,
-			);
-			path = RequestBody;
-			sourceTree = "<group>";
-		};
-		96DD575021A6A4EC00BA1102 /* Transport */ = {
-			isa = PBXGroup;
-			children = (
-				96DD575121A6A4EC00BA1102 /* RestAPITransport.swift */,
-			);
-			path = Transport;
-			sourceTree = "<group>";
-		};
-		96DD575921A6A5D000BA1102 /* GlobalDefinitions */ = {
-			isa = PBXGroup;
-			children = (
-				96DD575A21A6A5DD00BA1102 /* GlobalDefinitions.swift */,
-			);
-			path = GlobalDefinitions;
-			sourceTree = "<group>";
-		};
-		96DD576421A6DB4000BA1102 /* Misc */ = {
-			isa = PBXGroup;
-			children = (
-				96DD576521A6DB4500BA1102 /* Reactive */,
-			);
-			path = Misc;
-			sourceTree = "<group>";
-		};
-		96DD576521A6DB4500BA1102 /* Reactive */ = {
-			isa = PBXGroup;
-			children = (
-				96DD576621A6DB5B00BA1102 /* TaskFive.swift */,
-			);
-			path = Reactive;
+			path = NetworkReachabilityScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,14 +216,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96DD573E21A5A92800BA1102 /* TaskOneScreen.storyboard in Resources */,
-				96DD574021A5ADD700BA1102 /* TaskThreeScreen.storyboard in Resources */,
 				9609995321998FFE006B6D62 /* LaunchScreen.storyboard in Resources */,
-				96DD574221A5AE7400BA1102 /* TaskFourScreen.storyboard in Resources */,
-				96DD576121A6CFBB00BA1102 /* TaskTwoScreen.storyboard in Resources */,
 				9609993821998CAD006B6D62 /* Assets.xcassets in Resources */,
+				96DD576921A6E18100BA1102 /* NetworkReachabilityScreen.storyboard in Resources */,
 				96DD570721A43E9500BA1102 /* SplashScreen.storyboard in Resources */,
-				96DD574421A68E2900BA1102 /* TaskFiveScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,26 +281,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96DD574F21A6A3F700BA1102 /* RestAPI.swift in Sources */,
-				96DD575F21A6CD6700BA1102 /* TaskTwoViewModel.swift in Sources */,
-				96DD573121A5958100BA1102 /* TaskFourViewController.swift in Sources */,
-				96DD575321A6A4EC00BA1102 /* RestAPITransport.swift in Sources */,
-				96DD575621A6A51900BA1102 /* Problem.swift in Sources */,
-				96DD572121A5703400BA1102 /* TaskTwoViewController.swift in Sources */,
-				96DD571B21A5574500BA1102 /* TaskOneViewController.swift in Sources */,
-				96DD574D21A6A3E400BA1102 /* APIRequestBody.swift in Sources */,
-				96DD571821A5553100BA1102 /* TaskOneService.swift in Sources */,
+				96DD576E21A6E1C900BA1102 /* NetworkReachabilityViewModel.swift in Sources */,
+				96DD576C21A6E1B200BA1102 /* NetworkReachabilityViewController.swift in Sources */,
 				9609993121998CAB006B6D62 /* AppDelegate.swift in Sources */,
-				96DD575821A6A5A900BA1102 /* TaskOneRequest.swift in Sources */,
 				96DD571E21A5577A00BA1102 /* SplashViewController.swift in Sources */,
-				96DD572821A57BA600BA1102 /* TaskThreeService.swift in Sources */,
-				96DD576321A6D29600BA1102 /* TaskThreeViewModel.swift in Sources */,
-				96DD576721A6DB5B00BA1102 /* TaskFive.swift in Sources */,
-				96DD573621A5A2CB00BA1102 /* TaskFiveViewController.swift in Sources */,
-				96DD575B21A6A5DD00BA1102 /* GlobalDefinitions.swift in Sources */,
-				96DD572621A57B2800BA1102 /* TaskThreeViewController.swift in Sources */,
-				96DD575D21A6B6F500BA1102 /* TaskOneViewModel.swift in Sources */,
-				96DD572321A570A200BA1102 /* TaskTwoService.swift in Sources */,
+				96DD577021A6E22700BA1102 /* NetworkReachabilityService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,7 +17,7 @@ class SplashViewController: UIViewController {
         Observable<Void>
             .just(Void())
             .delaySubscription(2, scheduler: MainScheduler.instance)
-            .bind(to: rx.goToTaskOneScreen) // Для проверки заданий менять на соответствующий экран
+            .bind(to: rx.goToNetworkReachabilityScreen) // Для проверки заданий менять на соответствующий экран
             .disposed(by: disposeBag)
     }
     
@@ -25,41 +25,9 @@ class SplashViewController: UIViewController {
 }
 
 extension Reactive where Base: SplashViewController {
-    var goToTaskOneScreen: Binder<Void> {
+    var goToNetworkReachabilityScreen: Binder<Void> {
         return Binder(base) { base, _ in
-            let vc = UIStoryboard(name: "TaskOneScreen", bundle: nil).instantiateViewController(withIdentifier: "TaskOneViewController")
-            let nc = UINavigationController(rootViewController: vc)
-            UIApplication.shared.keyWindow?.rootViewController = nc
-        }
-    }
-    
-    var goToTaskTwoScreen: Binder<Void> {
-        return Binder(base) { base, _ in
-            let vc = UIStoryboard(name: "TaskTwoScreen", bundle: nil).instantiateViewController(withIdentifier: "TaskTwoViewController")
-            let nc = UINavigationController(rootViewController: vc)
-            UIApplication.shared.keyWindow?.rootViewController = nc
-        }
-    }
-
-    var goToTaskThreeScreen: Binder<Void> {
-        return Binder(base) { base, _ in
-            let vc = UIStoryboard(name: "TaskThreeScreen", bundle: nil).instantiateViewController(withIdentifier: "TaskFreeViewController")
-            let nc = UINavigationController(rootViewController: vc)
-            UIApplication.shared.keyWindow?.rootViewController = nc
-        }
-    }
-
-    var goToTaskFourScreen: Binder<Void> {
-        return Binder(base) { base, _ in
-            let vc = UIStoryboard(name: "TaskFourScreen", bundle: nil).instantiateViewController(withIdentifier: "TaskFourViewController")
-            let nc = UINavigationController(rootViewController: vc)
-            UIApplication.shared.keyWindow?.rootViewController = nc
-        }
-    }
-
-    var goToTaskFiveScreen: Binder<Void> {
-        return Binder(base) { base, _ in
-            let vc = UIStoryboard(name: "TaskFiveScreen", bundle: nil).instantiateViewController(withIdentifier: "TaskFiveViewController")
+            let vc = UIStoryboard(name: "NetworkReachabilityScreen", bundle: nil).instantiateViewController(withIdentifier: "NetworkReachabilityViewController")
             let nc = UINavigationController(rootViewController: vc)
             UIApplication.shared.keyWindow?.rootViewController = nc
         }

@@ -10,15 +10,15 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Task Three View Controller-->
-        <scene sceneID="ix0-80-38E">
+        <!--Network Reachability View Controller-->
+        <scene sceneID="fGX-Bo-XPK">
             <objects>
-                <viewController storyboardIdentifier="TaskThreeViewController" id="fox-0d-hf0" customClass="TaskThreeViewController" customModule="iOSMobileArchitecture" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="vai-U3-Okd">
+                <viewController storyboardIdentifier="NetworkReachabilityViewController" id="48p-h5-V8p" customClass="NetworkReachabilityViewController" customModule="iOSMobileArchitecture" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="N57-xP-pHP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N0n-RH-qkZ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bzp-fO-ZLy">
                                 <rect key="frame" x="0.0" y="333.5" width="375" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -27,19 +27,19 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="N0n-RH-qkZ" firstAttribute="leading" secondItem="og6-GC-KFX" secondAttribute="leading" id="17w-T2-b9U"/>
-                            <constraint firstItem="N0n-RH-qkZ" firstAttribute="centerY" secondItem="vai-U3-Okd" secondAttribute="centerY" id="5II-sQ-zZT"/>
-                            <constraint firstItem="og6-GC-KFX" firstAttribute="trailing" secondItem="N0n-RH-qkZ" secondAttribute="trailing" id="Wsh-s3-euj"/>
+                            <constraint firstItem="pSM-2x-FfB" firstAttribute="trailing" secondItem="Bzp-fO-ZLy" secondAttribute="trailing" id="PAa-eG-Gg2"/>
+                            <constraint firstItem="Bzp-fO-ZLy" firstAttribute="centerY" secondItem="N57-xP-pHP" secondAttribute="centerY" id="XX7-o3-qfq"/>
+                            <constraint firstItem="Bzp-fO-ZLy" firstAttribute="leading" secondItem="pSM-2x-FfB" secondAttribute="leading" id="ewY-Ou-L3c"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="og6-GC-KFX"/>
+                        <viewLayoutGuide key="safeArea" id="pSM-2x-FfB"/>
                     </view>
                     <connections>
-                        <outlet property="timerLabel" destination="N0n-RH-qkZ" id="YsH-lt-MCM"/>
+                        <outlet property="connectLabel" destination="Bzp-fO-ZLy" id="ndH-ab-WDu"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="05d-dz-M23" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="imV-6E-wfx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="172" y="141"/>
+            <point key="canvasLocation" x="-60" y="120"/>
         </scene>
     </scenes>
 </document>
