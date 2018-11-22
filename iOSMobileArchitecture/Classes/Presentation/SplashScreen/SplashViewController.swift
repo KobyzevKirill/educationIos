@@ -17,7 +17,7 @@ class SplashViewController: UIViewController {
         Observable<Void>
             .just(Void())
             .delaySubscription(2, scheduler: MainScheduler.instance)
-            .bind(to: rx.goToNetworkReachabilityScreen) // Для проверки заданий менять на соответствующий экран
+            .bind(to: rx.goToSelectTaskScreen) 
             .disposed(by: disposeBag)
     }
     
@@ -25,9 +25,9 @@ class SplashViewController: UIViewController {
 }
 
 extension Reactive where Base: SplashViewController {
-    var goToNetworkReachabilityScreen: Binder<Void> {
+    var goToSelectTaskScreen: Binder<Void> {
         return Binder(base) { base, _ in
-            let vc = UIStoryboard(name: "NetworkReachabilityScreen", bundle: nil).instantiateViewController(withIdentifier: "NetworkReachabilityViewController")
+            let vc = UIStoryboard(name: "SelectTaskScreen", bundle: nil).instantiateViewController(withIdentifier: "SelectTaskViewController")
             let nc = UINavigationController(rootViewController: vc)
             UIApplication.shared.keyWindow?.rootViewController = nc
         }

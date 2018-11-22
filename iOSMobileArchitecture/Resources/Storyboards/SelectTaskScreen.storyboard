@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Select Task View Controller-->
+        <scene sceneID="mBy-Ml-Yq8">
+            <objects>
+                <viewController storyboardIdentifier="SelectTaskViewController" id="hJ1-3V-Swv" customClass="SelectTaskViewController" customModule="iOSMobileArchitecture" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hqr-Qu-Mct">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wu3-2Q-66t">
+                                <rect key="frame" x="15" y="170" width="345" height="40"/>
+                                <color key="backgroundColor" red="0.2273389697" green="0.51848495009999995" blue="0.47058755159999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="pdN-0u-Dzr"/>
+                                </constraints>
+                                <state key="normal" title="Мониторинг передвижения">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0J-7B-GOo">
+                                <rect key="frame" x="15" y="240" width="345" height="40"/>
+                                <color key="backgroundColor" red="0.2273389697" green="0.51848495009999995" blue="0.47058755159999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Ael-j0-sle"/>
+                                </constraints>
+                                <state key="normal" title="Текущее местоположение">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wu3-2Q-66t" firstAttribute="top" secondItem="eFS-QL-d51" secondAttribute="top" constant="150" id="2hM-zy-UzX"/>
+                            <constraint firstItem="eFS-QL-d51" firstAttribute="trailing" secondItem="m0J-7B-GOo" secondAttribute="trailing" constant="15" id="G6a-HU-lwU"/>
+                            <constraint firstItem="m0J-7B-GOo" firstAttribute="top" secondItem="wu3-2Q-66t" secondAttribute="bottom" constant="30" id="SNC-qq-pxU"/>
+                            <constraint firstItem="eFS-QL-d51" firstAttribute="trailing" secondItem="wu3-2Q-66t" secondAttribute="trailing" constant="15" id="TJy-Ww-iOY"/>
+                            <constraint firstItem="wu3-2Q-66t" firstAttribute="leading" secondItem="eFS-QL-d51" secondAttribute="leading" constant="15" id="Vse-eR-5wk"/>
+                            <constraint firstItem="m0J-7B-GOo" firstAttribute="leading" secondItem="eFS-QL-d51" secondAttribute="leading" constant="15" id="ZuH-Wc-hgg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eFS-QL-d51"/>
+                    </view>
+                    <connections>
+                        <outlet property="continuoslyKeepButton" destination="wu3-2Q-66t" id="ILg-ul-2zN"/>
+                        <outlet property="justDetermineButton" destination="m0J-7B-GOo" id="kMq-wm-WJX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qqt-8G-BJ2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="159" y="72"/>
+        </scene>
+    </scenes>
+</document>

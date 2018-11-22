@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Continuosly Keep View Controller-->
+        <scene sceneID="KIo-W5-RZP">
+            <objects>
+                <viewController storyboardIdentifier="ContinuoslyKeepViewController" id="G7I-00-mJU" customClass="ContinuoslyKeepViewController" customModule="iOSMobileArchitecture" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dF9-t5-c1v">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Широта:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GAX-jY-gPG">
+                                <rect key="frame" x="15" y="120" width="345" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0et-5F-wFq">
+                                <rect key="frame" x="15" y="151" width="345" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Долгота:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="auk-U4-pfw">
+                                <rect key="frame" x="15" y="211" width="345" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pvd-5f-WIp">
+                                <rect key="frame" x="15" y="242" width="345" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0et-5F-wFq" firstAttribute="leading" secondItem="IEo-z8-Vag" secondAttribute="leading" constant="15" id="1gb-sn-oms"/>
+                            <constraint firstItem="GAX-jY-gPG" firstAttribute="leading" secondItem="IEo-z8-Vag" secondAttribute="leading" constant="15" id="5od-IH-XFQ"/>
+                            <constraint firstItem="IEo-z8-Vag" firstAttribute="trailing" secondItem="pvd-5f-WIp" secondAttribute="trailing" constant="15" id="Avy-uF-C09"/>
+                            <constraint firstItem="pvd-5f-WIp" firstAttribute="leading" secondItem="IEo-z8-Vag" secondAttribute="leading" constant="15" id="Hm4-LM-y9C"/>
+                            <constraint firstItem="IEo-z8-Vag" firstAttribute="trailing" secondItem="0et-5F-wFq" secondAttribute="trailing" constant="15" id="LnG-Ke-ZvV"/>
+                            <constraint firstItem="GAX-jY-gPG" firstAttribute="top" secondItem="IEo-z8-Vag" secondAttribute="top" constant="100" id="Lrq-bR-EfK"/>
+                            <constraint firstItem="auk-U4-pfw" firstAttribute="top" secondItem="0et-5F-wFq" secondAttribute="bottom" constant="60" id="Mru-us-BzJ"/>
+                            <constraint firstItem="auk-U4-pfw" firstAttribute="leading" secondItem="IEo-z8-Vag" secondAttribute="leading" constant="15" id="Tjf-bd-uqy"/>
+                            <constraint firstItem="pvd-5f-WIp" firstAttribute="top" secondItem="auk-U4-pfw" secondAttribute="bottom" constant="10" id="ijI-AK-FuW"/>
+                            <constraint firstItem="0et-5F-wFq" firstAttribute="top" secondItem="GAX-jY-gPG" secondAttribute="bottom" constant="10" id="o0C-Mv-yb3"/>
+                            <constraint firstItem="IEo-z8-Vag" firstAttribute="trailing" secondItem="auk-U4-pfw" secondAttribute="trailing" constant="15" id="pFV-7h-6tr"/>
+                            <constraint firstItem="IEo-z8-Vag" firstAttribute="trailing" secondItem="GAX-jY-gPG" secondAttribute="trailing" constant="15" id="xHp-kM-76H"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="IEo-z8-Vag"/>
+                    </view>
+                    <connections>
+                        <outlet property="latitudeLabel" destination="0et-5F-wFq" id="7RZ-WM-JBe"/>
+                        <outlet property="longitudeLabel" destination="pvd-5f-WIp" id="2Xd-IV-6Am"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pp2-0f-D4c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33" y="126"/>
+        </scene>
+    </scenes>
+</document>
