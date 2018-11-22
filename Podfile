@@ -3,6 +3,7 @@ inhibit_all_warnings!
 use_frameworks!
 
 target 'iOSMobileArchitecture' do
-  pod 'RxSwift'
-  pod 'RxCocoa'
+    pod 'Alamofire'
+    pod 'RxSwift'
+    pod 'RxCocoa'
 end

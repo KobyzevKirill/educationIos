@@ -9,11 +9,14 @@
 import UIKit
 
 class TaskOneViewController: UIViewController {
-    @IBOutlet weak var timerLabel: UILabel!
+    @IBOutlet weak var parameterOneTextField: UITextField!
+    @IBOutlet weak var parameterTwoTextField: UITextField!
+    @IBOutlet weak var requestButton: UIButton!
+    @IBOutlet weak var resultLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Значения, которые эмитит последовательность из TaskOneService, отображать на timerLabel. Использовать метод bind(to: ).
+        // По тапу на кнопку requestButton (применить rx) выводить в resultLabel значение, которое эмитит последовательность, созданная в TaskOneService, используя метод из TaskTwoViewModel.
     }
 }

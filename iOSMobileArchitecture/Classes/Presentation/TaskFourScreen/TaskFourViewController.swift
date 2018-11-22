@@ -10,10 +10,12 @@ import UIKit
 
 class TaskFourViewController: UIViewController {
     @IBOutlet weak var valueLabel: UILabel!
+    @IBOutlet weak var oneButton: UIButton!
+    @IBOutlet weak var twoButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Последовательность, созданная в TaskFourService, эмитит число. Отображать это значение в valueLabel. Если число кратно 2, цвет текста зеленого цвета, иначе красного цвета. Нельзя использовать оператор subscribe.
+        // В valueLabel отображается счетчик нажатия на любую из кнопок (oneButton, twoButton). Реализовать, используя операторы scan, merge и map. Нельзя использовать сабжекты.
     }
 }

@@ -9,12 +9,11 @@
 import UIKit
 
 class TaskTwoViewController: UIViewController {
+    @IBOutlet weak var timerLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Последовательность, созданная в TaskTwoService, биндить к созданному наблюдателю.
+        // timerLaber из TaskTwoViewModel биндить к timerLabel.
     }
 }
-
-// Создать наблюдателя (Binder) для TaskTwoViewController. Тип элементов, которые он принимает, аналогично типу элементов, которые эмитит последовательность, созданная в TaskTwoService.
-// Все полученные элементы выводить в логи.

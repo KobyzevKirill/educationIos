@@ -9,11 +9,11 @@
 import UIKit
 
 class TaskThreeViewController: UIViewController {
-    @IBOutlet weak var valueLabel: UILabel!
+    @IBOutlet weak var timerLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Последовательность, созданная в TaskThreeService, эмитит число. Отображать это значение в valueLabel. Если число кратно 2, цвет текста зеленого цвета, иначе красного цвета. Использовать оператор map. Нельзя использовать оператор subscribe.
+        // timerLaber из TaskTwoViewModel биндить к timerLabel.
     }
 }

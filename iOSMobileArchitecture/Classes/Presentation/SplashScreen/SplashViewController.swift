@@ -35,12 +35,12 @@ extension Reactive where Base: SplashViewController {
     
     var goToTaskTwoScreen: Binder<Void> {
         return Binder(base) { base, _ in
-            let vc = TaskTwoViewController()
+            let vc = UIStoryboard(name: "TaskTwoScreen", bundle: nil).instantiateViewController(withIdentifier: "TaskTwoViewController")
             let nc = UINavigationController(rootViewController: vc)
             UIApplication.shared.keyWindow?.rootViewController = nc
         }
     }
-    
+
     var goToTaskThreeScreen: Binder<Void> {
         return Binder(base) { base, _ in
             let vc = UIStoryboard(name: "TaskThreeScreen", bundle: nil).instantiateViewController(withIdentifier: "TaskFreeViewController")
@@ -48,7 +48,7 @@ extension Reactive where Base: SplashViewController {
             UIApplication.shared.keyWindow?.rootViewController = nc
         }
     }
-    
+
     var goToTaskFourScreen: Binder<Void> {
         return Binder(base) { base, _ in
             let vc = UIStoryboard(name: "TaskFourScreen", bundle: nil).instantiateViewController(withIdentifier: "TaskFourViewController")
@@ -56,18 +56,10 @@ extension Reactive where Base: SplashViewController {
             UIApplication.shared.keyWindow?.rootViewController = nc
         }
     }
-    
+
     var goToTaskFiveScreen: Binder<Void> {
         return Binder(base) { base, _ in
             let vc = UIStoryboard(name: "TaskFiveScreen", bundle: nil).instantiateViewController(withIdentifier: "TaskFiveViewController")
-            let nc = UINavigationController(rootViewController: vc)
-            UIApplication.shared.keyWindow?.rootViewController = nc
-        }
-    }
-    
-    var goToTaskSixScreen: Binder<Void> {
-        return Binder(base) { base, _ in
-            let vc = UIStoryboard(name: "TaskSixScreen", bundle: nil).instantiateViewController(withIdentifier: "TaskSixViewController")
             let nc = UINavigationController(rootViewController: vc)
             UIApplication.shared.keyWindow?.rootViewController = nc
         }
