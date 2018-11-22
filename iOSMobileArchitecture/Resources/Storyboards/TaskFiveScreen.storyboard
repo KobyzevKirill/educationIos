@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Task Five View Controller-->
+        <scene sceneID="iS8-vu-0QH">
+            <objects>
+                <viewController id="2q0-gx-4AX" customClass="TaskFiveViewController" customModule="iOSMobileArchitecture" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ixT-DA-e7r">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9pz-FP-UVw">
+                                <rect key="frame" x="0.0" y="170" width="375" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5qG-Ri-9JH">
+                                <rect key="frame" x="15" y="250" width="345" height="40"/>
+                                <color key="backgroundColor" red="0.2273389697" green="0.51848495009999995" blue="0.47058755159999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="oMp-5m-6DV"/>
+                                </constraints>
+                                <state key="normal" title="Получить текущую дату">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9pz-FP-UVw" firstAttribute="top" secondItem="d0r-Si-PgF" secondAttribute="top" constant="150" id="1V2-HN-ZT0"/>
+                            <constraint firstItem="9pz-FP-UVw" firstAttribute="leading" secondItem="d0r-Si-PgF" secondAttribute="leading" id="UeS-NL-2ZC"/>
+                            <constraint firstItem="5qG-Ri-9JH" firstAttribute="leading" secondItem="d0r-Si-PgF" secondAttribute="leading" constant="15" id="WBq-qc-Qu7"/>
+                            <constraint firstItem="d0r-Si-PgF" firstAttribute="trailing" secondItem="5qG-Ri-9JH" secondAttribute="trailing" constant="15" id="Ykv-aq-hW3"/>
+                            <constraint firstItem="d0r-Si-PgF" firstAttribute="trailing" secondItem="9pz-FP-UVw" secondAttribute="trailing" id="fVB-n5-GPI"/>
+                            <constraint firstItem="5qG-Ri-9JH" firstAttribute="top" secondItem="9pz-FP-UVw" secondAttribute="bottom" constant="80" id="fz6-P7-Fsc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="d0r-Si-PgF"/>
+                    </view>
+                    <connections>
+                        <outlet property="currentDateButton" destination="5qG-Ri-9JH" id="3l2-gQ-HPA"/>
+                        <outlet property="currentDateLabel" destination="9pz-FP-UVw" id="CtN-BX-CgF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4b5-uA-XDg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-135" y="132"/>
+        </scene>
+    </scenes>
+</document>

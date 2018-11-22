@@ -7,18 +7,13 @@
 //
 
 import UIKit
-import RxSwift
-import RxCocoa
 
 class TaskFourViewController: UIViewController {
+    @IBOutlet weak var valueLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Реализовать подписку на последовательность, используя метод subscribe.
-        
-        TaskFourService
-            .generate()
+        // Последовательность, созданная в TaskFourService, эмитит число. Отображать это значение в valueLabel. Если число кратно 2, цвет текста зеленого цвета, иначе красного цвета. Нельзя использовать оператор subscribe.
     }
-    
-    private let disposeBag = DisposeBag()
 }

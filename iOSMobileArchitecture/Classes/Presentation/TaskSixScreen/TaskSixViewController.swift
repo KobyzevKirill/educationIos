@@ -7,15 +7,14 @@
 //
 
 import UIKit
-import RxSwift
-import RxCocoa
 
 class TaskSixViewController: UIViewController {
+    @IBOutlet weak var valueLabel: UILabel!
+    @IBOutlet weak var valueButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Выполнить подписку на последовательность (см. задание в Misc/TaskSix). В логи распечатать значение, переданное на вход методу, выполнив подписку на последовательность.
+        // По тапу на кнопку valueButton (применить rx) выводить в valueLabel значение, которое эмити последовательность, созданная в TaskSixService. В случае, если последовательность завершается ошибкой, в valueLabel отображать текст "Ошибка". Нельзя использовать оператор subscribe.
     }
-    
-    let disposeBag = DisposeBag()
 }

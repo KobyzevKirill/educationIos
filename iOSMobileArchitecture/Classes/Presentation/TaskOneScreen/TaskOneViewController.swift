@@ -7,18 +7,13 @@
 //
 
 import UIKit
-import RxSwift
-import RxCocoa
 
 class TaskOneViewController: UIViewController {
+    @IBOutlet weak var timerLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Реализовать подписку на последовательность, используя метод subscribe. Реализовать только те замыкания сигналов, которые могут быть вызваны. Замыкания для сигналов, которые никогда не будут прокинуты текущей последовательностью, не должны быть реализованы.
-        
-        TaskOneService
-            .generateRandom()
+        // Значения, которые эмитит последовательность из TaskOneService, отображать на timerLabel. Использовать метод bind(to: ).
     }
-    
-    private let disposeBag = DisposeBag()
 }

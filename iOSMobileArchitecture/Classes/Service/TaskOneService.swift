@@ -6,13 +6,7 @@
 //  Copyright © 2018 Andrey Chernyshev. All rights reserved.
 //
 
-import RxSwift
-import RxCocoa
-
 class TaskOneService {
     
-    // Заменить текущий вариант создания последовательности, используя метод create. Последовательность эмитит сигнал с числом, затем завершается. Число рандомное, observable hot.
-    static func generateRandom() -> Observable<Int> {
-        return Observable.just(1)
-    }
+    // Добавить метод создания последовательности, используя оператор timer. Последовательность должна выполняться в главном потоке.
 }

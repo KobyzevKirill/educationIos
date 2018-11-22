@@ -6,18 +6,7 @@
 //  Copyright © 2018 Andrey Chernyshev. All rights reserved.
 //
 
-import RxSwift
-import RxCocoa
-
 class TaskThreeService {
     
-    // Заменить текущий вариант создания последовательности, используя метод create. Последовательность эмитит только ошибку.
-    static func generateErrorByCreate() -> Observable<Int> {
-        return Observable.just(1)
-    }
-    
-    // Заменить текущий вариант создания последовательности, используя метод, который создает последовательность, завершающуюся ошибкой.
-    static func generateError() -> Observable<Int> {
-        return Observable.just(1)
-    }
+    // Добавить метод (не статический), создающий последовательность, используя оператор timer. Последовательность должна выполняться на главном потоке. Период задать 1.
 }

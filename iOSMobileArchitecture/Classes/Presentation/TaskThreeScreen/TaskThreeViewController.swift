@@ -7,23 +7,13 @@
 //
 
 import UIKit
-import RxSwift
-import RxCocoa
 
 class TaskThreeViewController: UIViewController {
+    @IBOutlet weak var valueLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Реализовать подписку на последовательность, используя оператор subscribe. Реализовать только те замыкания сигналов, которые могут быть вызваны. Замыкания для сигналов, которые никогда не будут прокинуты текущей последовательностью, не должны быть реализованы.
-        
-        TaskThreeService
-            .generateErrorByCreate()
-        
-        // Реализовать подписку на последовательность, используя оператор subscribe. Реализовать только те замыкания сигналов, которые могут быть вызваны. Замыкания для сигналов, которые никогда не будут прокинуты текущей последовательностью, не должны быть реализованы.
-        
-        TaskThreeService
-            .generateError()
+        // Последовательность, созданная в TaskThreeService, эмитит число. Отображать это значение в valueLabel. Если число кратно 2, цвет текста зеленого цвета, иначе красного цвета. Использовать оператор map. Нельзя использовать оператор subscribe.
     }
-    
-    private let disposeBag = DisposeBag()
 }

@@ -7,23 +7,16 @@
 //
 
 import UIKit
-import RxSwift
-import RxCocoa
 
 class TaskFiveViewController: UIViewController {
+    @IBOutlet weak var currentDateLabel: UILabel!
+    @IBOutlet weak var currentDateButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Реализовать подписку на последовательность, используя метод subscribe.
-        
-        TaskFiveService
-            .completedByCreate()
-        
-        // Реализовать подписку на последовательность, используя метод subscribe.
-        
-        TaskFiveService
-            .completed()
+        // Реализовать получение Observable<NSDate> с текущей датой следующим способом: Date.rx.current
+        // Создание последовательности вынести в Misc/Reactive
+        // По тапу на кнопку currentDateButton (применить rx) выводить в currentDateLabel текущую дату.
     }
-    
-    private let disposeBag = DisposeBag()
 }
