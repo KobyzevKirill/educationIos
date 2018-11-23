@@ -121,7 +121,7 @@
 		9609994221998D5F006B6D62 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				96DD574521A68F1B00BA1102 /* Misc */,
+				96B0E73221A81D58001AD6FF /* Misc */,
 				96DD572921A57E5D00BA1102 /* Model */,
 				96DD571621A554D100BA1102 /* Service */,
 				9609994821998DDF006B6D62 /* Presentation */,
@@ -166,6 +166,21 @@
 				96DD571C21A5576B00BA1102 /* SplashScreen */,
 			);
 			path = Presentation;
+			sourceTree = "<group>";
+		};
+		96B0E73221A81D58001AD6FF /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				96B0E73321A81D5F001AD6FF /* Reactive */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		96B0E73321A81D5F001AD6FF /* Reactive */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reactive;
 			sourceTree = "<group>";
 		};
 		96DD571621A554D100BA1102 /* Service */ = {
@@ -250,21 +265,6 @@
 				96DD573B21A5A59E00BA1102 /* TaskSixViewController.swift */,
 			);
 			path = TaskSixScreen;
-			sourceTree = "<group>";
-		};
-		96DD574521A68F1B00BA1102 /* Misc */ = {
-			isa = PBXGroup;
-			children = (
-				96DD574621A68F2000BA1102 /* Reactive */,
-			);
-			path = Misc;
-			sourceTree = "<group>";
-		};
-		96DD574621A68F2000BA1102 /* Reactive */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Reactive;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
