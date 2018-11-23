@@ -17,6 +17,6 @@ class TaskOneViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // По тапу на кнопку requestButton (применить rx) выводить в resultLabel значение, которое эмитит последовательность, созданная в TaskOneService, используя метод из TaskTwoViewModel.
+        // По тапу на кнопку requestButton (применить rx) реализовать подписку на последовательность, созданную в TaskOneService, используя метод из TaskTwoViewModel. Если последовательность завершается ошибкой, в resultLabel отображать строку "Ошибка", иначе "Успешно".
     }
 }
