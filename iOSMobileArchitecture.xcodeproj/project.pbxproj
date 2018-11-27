@@ -10,6 +10,7 @@
 		9609993121998CAB006B6D62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9609993021998CAB006B6D62 /* AppDelegate.swift */; };
 		9609993821998CAD006B6D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9609993721998CAD006B6D62 /* Assets.xcassets */; };
 		9609995321998FFE006B6D62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9609995221998FFE006B6D62 /* LaunchScreen.storyboard */; };
+		96B0E73D21AD3BCB001AD6FF /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 96B0E73C21AD3BCB001AD6FF /* ReadMe */; };
 		96DD570721A43E9500BA1102 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DD570621A43E9500BA1102 /* SplashScreen.storyboard */; };
 		96DD571E21A5577A00BA1102 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD571D21A5577A00BA1102 /* SplashViewController.swift */; };
 		96DD576921A6E18100BA1102 /* NetworkReachabilityScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DD576821A6E18100BA1102 /* NetworkReachabilityScreen.storyboard */; };
@@ -27,6 +28,7 @@
 		9609993721998CAD006B6D62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9609993C21998CAD006B6D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9609995221998FFE006B6D62 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96B0E73C21AD3BCB001AD6FF /* ReadMe */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
 		96DD570621A43E9500BA1102 /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
 		96DD571D21A5577A00BA1102 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		96DD576821A6E18100BA1102 /* NetworkReachabilityScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NetworkReachabilityScreen.storyboard; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 		9609992421998CAB006B6D62 = {
 			isa = PBXGroup;
 			children = (
+				96B0E73C21AD3BCB001AD6FF /* ReadMe */,
 				9609992F21998CAB006B6D62 /* iOSMobileArchitecture */,
 				9609992E21998CAB006B6D62 /* Products */,
 				05A9942C91D8BADEF39EF918 /* Pods */,
@@ -216,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96B0E73D21AD3BCB001AD6FF /* ReadMe in Resources */,
 				9609995321998FFE006B6D62 /* LaunchScreen.storyboard in Resources */,
 				9609993821998CAD006B6D62 /* Assets.xcassets in Resources */,
 				96DD576921A6E18100BA1102 /* NetworkReachabilityScreen.storyboard in Resources */,
