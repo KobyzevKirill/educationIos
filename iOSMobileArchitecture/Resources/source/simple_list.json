@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "department": "Mobile",
+    "users": [
+      {
+        "id": 100,
+        "name": "Владимир",
+        "firstName": "Турганов",
+        "avatarUrl": "https://vignette.wikia.nocookie.net/fantendo/images/6/6e/Small-mario.png/revision/latest?cb=20120718024112"
+      }, 
+      {
+        "id": 101,
+        "name": "Виктория",
+        "firstName": "Сверлова"
+      }, 
+      {
+        "id": 102,
+        "name": "Вироника",
+        "firstName": "Семенская",
+        "avatarUrl": "https://vignette.wikia.nocookie.net/fantendo/images/6/6e/Small-mario.png/revision/latest?cb=20120718024112"
+      }
+    ]
+  },
+  
+  {
+    "id": 2,
+    "department": "PHP",
+    "users": [
+      {
+        "id": 103,
+        "name": "Виктория",
+        "firstName": "Звягинцева",
+        "avatarUrl": "https://vignette.wikia.nocookie.net/fantendo/images/6/6e/Small-mario.png/revision/latest?cb=20120718024112"
+      }, 
+      {
+        "id": 104,
+        "name": "Дмитрий",
+        "firstName": "Сверлов"
+      }, 
+      {
+        "id": 105,
+        "name": "Дмитрий",
+        "firstName": "Миронов"
+      }
+    ]
+  },
+  
+  {
+    "id": 3,
+    "department": "Frontend",
+    "users": [
+      {
+        "id": 106,
+        "name": "Динара",
+        "firstName": "Вершинина",
+        "avatarUrl": "https://vignette.wikia.nocookie.net/fantendo/images/6/6e/Small-mario.png/revision/latest?cb=20120718024112"
+      }, 
+      {
+        "id": 107,
+        "name": "Дмитрий",
+        "firstName": "Вершинин",
+        "avatarUrl": "https://vignette.wikia.nocookie.net/fantendo/images/6/6e/Small-mario.png/revision/latest?cb=20120718024112"
+      }, 
+      {
+        "id": 108,
+        "name": "Андрей",
+        "firstName": "Семенский",
+        "avatarUrl": "https://vignette.wikia.nocookie.net/fantendo/images/6/6e/Small-mario.png/revision/latest?cb=20120718024112"
+      }
+    ]
+  }, 
+  
+  {
+    "id": 4,
+    "department": "Frontend",
+    "users": [
+      {
+        "id": 109,
+        "name": "Светлана",
+        "firstName": "Кукушкина",
+        "avatarUrl": "https://vignette.wikia.nocookie.net/fantendo/images/6/6e/Small-mario.png/revision/latest?cb=20120718024112"
+      }, 
+      {
+        "id": 110,
+        "name": "Светлана",
+        "firstName": "Андреева",
+        "avatarUrl": "https://vignette.wikia.nocookie.net/fantendo/images/6/6e/Small-mario.png/revision/latest?cb=20120718024112"
+      }, 
+      {
+        "id": 111,
+        "name": "Данила",
+        "firstName": "Матвеев",
+        "avatarUrl": "https://vignette.wikia.nocookie.net/fantendo/images/6/6e/Small-mario.png/revision/latest?cb=20120718024112"
+      }
+    ]
+  }
+]
