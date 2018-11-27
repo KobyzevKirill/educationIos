@@ -10,6 +10,7 @@
 		9609993121998CAB006B6D62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9609993021998CAB006B6D62 /* AppDelegate.swift */; };
 		9609993821998CAD006B6D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9609993721998CAD006B6D62 /* Assets.xcassets */; };
 		9609995321998FFE006B6D62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9609995221998FFE006B6D62 /* LaunchScreen.storyboard */; };
+		96B0E73F21AD3D6F001AD6FF /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 96B0E73E21AD3D6F001AD6FF /* ReadMe */; };
 		96DD570721A43E9500BA1102 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DD570621A43E9500BA1102 /* SplashScreen.storyboard */; };
 		96DD571E21A5577A00BA1102 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD571D21A5577A00BA1102 /* SplashViewController.swift */; };
 		96DD577221A6E6DB00BA1102 /* GeolocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD577121A6E6DB00BA1102 /* GeolocationService.swift */; };
@@ -32,6 +33,7 @@
 		9609993721998CAD006B6D62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9609993C21998CAD006B6D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9609995221998FFE006B6D62 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96B0E73E21AD3D6F001AD6FF /* ReadMe */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
 		96DD570621A43E9500BA1102 /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
 		96DD571D21A5577A00BA1102 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		96DD577121A6E6DB00BA1102 /* GeolocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeolocationService.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 		9609992421998CAB006B6D62 = {
 			isa = PBXGroup;
 			children = (
+				96B0E73E21AD3D6F001AD6FF /* ReadMe */,
 				9609992F21998CAB006B6D62 /* iOSMobileArchitecture */,
 				9609992E21998CAB006B6D62 /* Products */,
 				05A9942C91D8BADEF39EF918 /* Pods */,
@@ -252,6 +255,7 @@
 				9609993821998CAD006B6D62 /* Assets.xcassets in Resources */,
 				96DD577921A6E92100BA1102 /* ContinuoslyKeepScreen.storyboard in Resources */,
 				96DD570721A43E9500BA1102 /* SplashScreen.storyboard in Resources */,
+				96B0E73F21AD3D6F001AD6FF /* ReadMe in Resources */,
 				96DD578021A6EB2200BA1102 /* JustDetermineScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
