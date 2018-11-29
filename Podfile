@@ -6,5 +6,4 @@ target 'iOSMobileArchitecture' do
   pod 'Alamofire'
   pod 'RxSwift'
   pod 'RxCocoa'
-  pod 'RealmSwift'
 end

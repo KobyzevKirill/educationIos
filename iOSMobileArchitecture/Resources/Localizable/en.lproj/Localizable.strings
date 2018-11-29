@@ -6,12 +6,3 @@
   Copyright © 2018 Andrey Chernyshev. All rights reserved.
 */
 
-"unknown_error" = "Неизвестная ошибка";
-"sign_in" = "Авторизоваться";
-"login" = "Логин";
-"password" = "Пароль";
-"error" = "Ошибка";
-"invalid_credentials" = "Неверный логин или пароль";
-"ok" = "ОК";
-"added" = "Добавлено:";
-"cities" = "Города";

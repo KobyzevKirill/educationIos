@@ -1,0 +1,76 @@
+[
+    {
+        "id": 100,
+        "name": "Владимир",
+        "firstName": "Турганов",
+        "avatarUrl": "https://vignette.wikia.nocookie.net/fantendo/images/6/6e/Small-mario.png/revision/latest?cb=20120718024112",
+        "coordinate": {
+            "latitude": 54.19410045907492,
+            "longitude": 45.145978917771345
+        }
+    },
+
+    {
+        "id": 103,
+        "name": "Виктория",
+        "firstName": "Звягинцева",
+        "avatarUrl": "https://vignette.wikia.nocookie.net/fantendo/images/6/6e/Small-mario.png/revision/latest?cb=20120718024112",
+        "coordinate": {
+            "latitude": 54.17690050966271,
+            "longitude": 45.16434668510533
+        }
+    },
+    
+    {
+        "id": 104,
+        "name": "Дмитрий",
+        "firstName": "Сверлов",
+        "coordinate": {
+            "latitude": 54.179211272663935,
+            "longitude": 45.18305777519322
+        }
+    },
+    
+    {
+        "id": 105,
+        "name": "Дмитрий",
+        "firstName": "Миронов",
+        "coordinate": {
+            "latitude": 54.18021591195863,
+            "longitude": 45.19885062187291
+        }
+    },
+    
+    {
+        "id": 108,
+        "name": "Андрей",
+        "firstName": "Семенский",
+        "avatarUrl": "https://vignette.wikia.nocookie.net/fantendo/images/6/6e/Small-mario.png/revision/latest?cb=20120718024112",
+        "coordinate": {
+            "latitude": 54.16835961303537,
+            "longitude": 45.186147679978376
+        }
+    },
+    
+    {
+        "id": 109,
+        "name": "Светлана",
+        "firstName": "Кукушкина",
+        "avatarUrl": "https://vignette.wikia.nocookie.net/fantendo/images/6/6e/Small-mario.png/revision/latest?cb=20120718024112",
+        "coordinate": {
+            "latitude": 54.165445256585876,
+            "longitude": 45.14889716117955
+        }
+    },
+    
+    {
+        "id": 110,
+        "name": "Светлана",
+        "firstName": "Андреева",
+        "avatarUrl": "https://vignette.wikia.nocookie.net/fantendo/images/6/6e/Small-mario.png/revision/latest?cb=20120718024112",
+        "coordinate": {
+            "latitude": 54.15147359435182,
+            "longitude": 45.10237692802525
+        }
+    }
+]
