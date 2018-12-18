@@ -10,6 +10,9 @@
 		9609993121998CAB006B6D62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9609993021998CAB006B6D62 /* AppDelegate.swift */; };
 		9609993821998CAD006B6D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9609993721998CAD006B6D62 /* Assets.xcassets */; };
 		9609995321998FFE006B6D62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9609995221998FFE006B6D62 /* LaunchScreen.storyboard */; };
+		9663320621C8E15C004ABCA2 /* TaskSix in Resources */ = {isa = PBXBuildFile; fileRef = 9663320521C8E15C004ABCA2 /* TaskSix */; };
+		9663320821C8E27D004ABCA2 /* TaskSixProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9663320721C8E27D004ABCA2 /* TaskSixProtocol.swift */; };
+		9663320B21C8E39C004ABCA2 /* TaskSeven in Resources */ = {isa = PBXBuildFile; fileRef = 9663320A21C8E39C004ABCA2 /* TaskSeven */; };
 		96B0E7A121AFD413001AD6FF /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 96B0E7A021AFD413001AD6FF /* ReadMe */; };
 		96B0E7A421AFD695001AD6FF /* TaskOne in Resources */ = {isa = PBXBuildFile; fileRef = 96B0E7A321AFD695001AD6FF /* TaskOne */; };
 		96B0E7A721AFE4AF001AD6FF /* TaskTwo in Resources */ = {isa = PBXBuildFile; fileRef = 96B0E7A621AFE4AF001AD6FF /* TaskTwo */; };
@@ -24,6 +27,9 @@
 		9609993721998CAD006B6D62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9609993C21998CAD006B6D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9609995221998FFE006B6D62 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9663320521C8E15C004ABCA2 /* TaskSix */ = {isa = PBXFileReference; lastKnownFileType = text; path = TaskSix; sourceTree = "<group>"; };
+		9663320721C8E27D004ABCA2 /* TaskSixProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSixProtocol.swift; sourceTree = "<group>"; };
+		9663320A21C8E39C004ABCA2 /* TaskSeven */ = {isa = PBXFileReference; lastKnownFileType = text; path = TaskSeven; sourceTree = "<group>"; };
 		96B0E7A021AFD413001AD6FF /* ReadMe */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
 		96B0E7A321AFD695001AD6FF /* TaskOne */ = {isa = PBXFileReference; lastKnownFileType = text; path = TaskOne; sourceTree = "<group>"; };
 		96B0E7A621AFE4AF001AD6FF /* TaskTwo */ = {isa = PBXFileReference; lastKnownFileType = text; path = TaskTwo; sourceTree = "<group>"; };
@@ -99,6 +105,8 @@
 		9609994821998DDF006B6D62 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				9663320921C8E32A004ABCA2 /* TaskSevenScreen */,
+				9663320421C8E143004ABCA2 /* TaskSixScreen */,
 				96B0E7AE21B00C9E001AD6FF /* TaskFiveScreen */,
 				96B0E7AB21B00805001AD6FF /* TaskFourScreen */,
 				96B0E7A821AFE93D001AD6FF /* TaskThreeScreen */,
@@ -106,6 +114,23 @@
 				96B0E7A221AFD666001AD6FF /* TaskOneScreen */,
 			);
 			path = Presentation;
+			sourceTree = "<group>";
+		};
+		9663320421C8E143004ABCA2 /* TaskSixScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9663320521C8E15C004ABCA2 /* TaskSix */,
+				9663320721C8E27D004ABCA2 /* TaskSixProtocol.swift */,
+			);
+			path = TaskSixScreen;
+			sourceTree = "<group>";
+		};
+		9663320921C8E32A004ABCA2 /* TaskSevenScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9663320A21C8E39C004ABCA2 /* TaskSeven */,
+			);
+			path = TaskSevenScreen;
 			sourceTree = "<group>";
 		};
 		96B0E7A221AFD666001AD6FF /* TaskOneScreen */ = {
@@ -206,6 +231,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9663320621C8E15C004ABCA2 /* TaskSix in Resources */,
+				9663320B21C8E39C004ABCA2 /* TaskSeven in Resources */,
 				96B0E7AA21AFFB34001AD6FF /* TaskThree in Resources */,
 				96B0E7A421AFD695001AD6FF /* TaskOne in Resources */,
 				9609995321998FFE006B6D62 /* LaunchScreen.storyboard in Resources */,
@@ -225,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9609993121998CAB006B6D62 /* AppDelegate.swift in Sources */,
+				9663320821C8E27D004ABCA2 /* TaskSixProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
