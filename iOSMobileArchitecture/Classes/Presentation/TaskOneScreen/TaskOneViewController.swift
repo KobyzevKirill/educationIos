@@ -10,7 +10,10 @@ import UIKit
 
 class TaskOneViewController: UIViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var label: UILabel!
+    
+    @IBAction func button(_ sender: Any) {
+        label.text = textField.text
     }
 }
