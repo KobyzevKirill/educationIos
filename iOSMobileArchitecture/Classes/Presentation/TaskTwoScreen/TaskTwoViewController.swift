@@ -29,16 +29,18 @@ class TaskTwoViewController: UIViewController{
     @IBOutlet weak var label: UILabel!
     let infoAboutTable = Table()
     let infoAboutChair = Chair()
-    
+
     @IBAction func button(_ sender: UIButton) {
-        if let text = textField.text {
-            switch text {
-            case "Стол":
+        if var text = textField.text {
+            text = text.trimmingCharacters(in: .whitespaces)
+            text = text.lowercased()
+            switch text{
+            case "стол":
                 label.text = infoAboutTable.getInfo()
-            case "Стул":
+            case "стул":
                 label.text = infoAboutChair.getInfo()
             default:
-                label.text = "Try to enter text again!"
+                label.text = "Try again!"
             }
         }
     }
