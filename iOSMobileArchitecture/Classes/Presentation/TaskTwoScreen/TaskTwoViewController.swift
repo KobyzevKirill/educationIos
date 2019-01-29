@@ -25,12 +25,13 @@ class Chair: Thing {
 }
 
 class TaskTwoViewController: UIViewController{
+    
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var label: UILabel!
     let infoAboutTable = Table()
     let infoAboutChair = Chair()
 
-    @IBAction func button(_ sender: UIButton) {
+    @IBAction func pushButton(_ sender: Any) {
         if var text = textField.text {
             text = text.trimmingCharacters(in: .whitespaces)
             text = text.lowercased()
