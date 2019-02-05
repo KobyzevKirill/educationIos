@@ -10,10 +10,14 @@ import UIKit
 
 class TaskThreePartTwoViewController: UIViewController {
 
+    var exampleOfPhone = Phone()
+    
+    @IBOutlet weak var FirstField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        FirstField.text = exampleOfPhone.color
     }
     
 }

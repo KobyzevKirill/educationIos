@@ -19,9 +19,11 @@
 		96B0E7AA21AFFB34001AD6FF /* TaskThree in Resources */ = {isa = PBXBuildFile; fileRef = 96B0E7A921AFFB34001AD6FF /* TaskThree */; };
 		96B0E7AD21B0086D001AD6FF /* TaskFour in Resources */ = {isa = PBXBuildFile; fileRef = 96B0E7AC21B0086D001AD6FF /* TaskFour */; };
 		96B0E7B021B00CAF001AD6FF /* TaskFive in Resources */ = {isa = PBXBuildFile; fileRef = 96B0E7AF21B00CAF001AD6FF /* TaskFive */; };
-		CE23DCDF21F1FE6F00B1DE49 /* TaskThreeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE23DCDE21F1FE6F00B1DE49 /* TaskThreeScreen.storyboard */; };
+		CE23DCDF21F1FE6F00B1DE49 /* TaskThreePartOneViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE23DCDE21F1FE6F00B1DE49 /* TaskThreePartOneViewController.storyboard */; };
 		CE3EB58E22009A2000675F35 /* TaskThreePartOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EB58D22009A2000675F35 /* TaskThreePartOneViewController.swift */; };
 		CE3EB59122009A4500675F35 /* TaskThreePartTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EB59022009A4500675F35 /* TaskThreePartTwoViewController.swift */; };
+		CEB3A5152209A01600EE0051 /* TaskThreePartTwoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB3A5142209A01600EE0051 /* TaskThreePartTwoViewController.storyboard */; };
+		CEB3A5172209A7FC00EE0051 /* TaskThreeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB3A5162209A7FC00EE0051 /* TaskThreeModel.swift */; };
 		CEC8D91021E77B6B0030833B /* TaskOneStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC8D90F21E77B6B0030833B /* TaskOneStoryboard.storyboard */; };
 		CEC8D91221E77BA80030833B /* TaskOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC8D91121E77BA80030833B /* TaskOneViewController.swift */; };
 		CECB630221EF58AD00AEE333 /* TaskTwoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECB630121EF58AD00AEE333 /* TaskTwoViewController.storyboard */; };
@@ -43,9 +45,11 @@
 		96B0E7A921AFFB34001AD6FF /* TaskThree */ = {isa = PBXFileReference; lastKnownFileType = text; path = TaskThree; sourceTree = "<group>"; };
 		96B0E7AC21B0086D001AD6FF /* TaskFour */ = {isa = PBXFileReference; lastKnownFileType = text; path = TaskFour; sourceTree = "<group>"; };
 		96B0E7AF21B00CAF001AD6FF /* TaskFive */ = {isa = PBXFileReference; lastKnownFileType = text; path = TaskFive; sourceTree = "<group>"; };
-		CE23DCDE21F1FE6F00B1DE49 /* TaskThreeScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TaskThreeScreen.storyboard; sourceTree = "<group>"; };
+		CE23DCDE21F1FE6F00B1DE49 /* TaskThreePartOneViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TaskThreePartOneViewController.storyboard; sourceTree = "<group>"; };
 		CE3EB58D22009A2000675F35 /* TaskThreePartOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskThreePartOneViewController.swift; sourceTree = "<group>"; };
 		CE3EB59022009A4500675F35 /* TaskThreePartTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskThreePartTwoViewController.swift; sourceTree = "<group>"; };
+		CEB3A5142209A01600EE0051 /* TaskThreePartTwoViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TaskThreePartTwoViewController.storyboard; sourceTree = "<group>"; };
+		CEB3A5162209A7FC00EE0051 /* TaskThreeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskThreeModel.swift; sourceTree = "<group>"; };
 		CEC8D90F21E77B6B0030833B /* TaskOneStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TaskOneStoryboard.storyboard; sourceTree = "<group>"; };
 		CEC8D91121E77BA80030833B /* TaskOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskOneViewController.swift; sourceTree = "<group>"; };
 		CECB630121EF58AD00AEE333 /* TaskTwoViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TaskTwoViewController.storyboard; sourceTree = "<group>"; };
@@ -114,7 +118,8 @@
 				9609995221998FFE006B6D62 /* LaunchScreen.storyboard */,
 				CEC8D90F21E77B6B0030833B /* TaskOneStoryboard.storyboard */,
 				CECB630121EF58AD00AEE333 /* TaskTwoViewController.storyboard */,
-				CE23DCDE21F1FE6F00B1DE49 /* TaskThreeScreen.storyboard */,
+				CE23DCDE21F1FE6F00B1DE49 /* TaskThreePartOneViewController.storyboard */,
+				CEB3A5142209A01600EE0051 /* TaskThreePartTwoViewController.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -174,6 +179,7 @@
 				96B0E7A921AFFB34001AD6FF /* TaskThree */,
 				CE3EB58D22009A2000675F35 /* TaskThreePartOneViewController.swift */,
 				CE3EB59022009A4500675F35 /* TaskThreePartTwoViewController.swift */,
+				CEB3A5162209A7FC00EE0051 /* TaskThreeModel.swift */,
 			);
 			path = TaskThreeScreen;
 			sourceTree = "<group>";
@@ -261,8 +267,9 @@
 				96B0E7AD21B0086D001AD6FF /* TaskFour in Resources */,
 				96B0E7B021B00CAF001AD6FF /* TaskFive in Resources */,
 				9609993821998CAD006B6D62 /* Assets.xcassets in Resources */,
-				CE23DCDF21F1FE6F00B1DE49 /* TaskThreeScreen.storyboard in Resources */,
+				CE23DCDF21F1FE6F00B1DE49 /* TaskThreePartOneViewController.storyboard in Resources */,
 				96B0E7A121AFD413001AD6FF /* ReadMe in Resources */,
+				CEB3A5152209A01600EE0051 /* TaskThreePartTwoViewController.storyboard in Resources */,
 				CECB630221EF58AD00AEE333 /* TaskTwoViewController.storyboard in Resources */,
 				96B0E7A721AFE4AF001AD6FF /* TaskTwo in Resources */,
 			);
@@ -280,6 +287,7 @@
 				CE3EB59122009A4500675F35 /* TaskThreePartTwoViewController.swift in Sources */,
 				CECB630421EF58F300AEE333 /* TaskTwoViewController.swift in Sources */,
 				CE3EB58E22009A2000675F35 /* TaskThreePartOneViewController.swift in Sources */,
+				CEB3A5172209A7FC00EE0051 /* TaskThreeModel.swift in Sources */,
 				9663320821C8E27D004ABCA2 /* TaskSixProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

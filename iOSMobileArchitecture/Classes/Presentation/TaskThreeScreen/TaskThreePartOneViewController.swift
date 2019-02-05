@@ -10,15 +10,24 @@ import UIKit
 
 class TaskThreePartOneViewController: UIViewController {
     
+    @IBOutlet weak var labelOfChangedInfo: UILabel!
+    
+    var exampleOfPhone = Phone()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Do any additional setup after loading the view.
     }
     
-    @IBAction func pushButton(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "TaskThreeScreen", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "TaskThreePartTwoViewController")
-        navigationController?.pushViewController(vc, animated: true)
+    @IBAction func onButton1Push(_ sender: UIButton) {
+        exampleOfPhone.color = "Gray"
+        let storyboard = UIStoryboard(name: "TaskThreePartTwoViewController", bundle: nil)
+        if let viewController = storyboard.instantiateInitialViewController() {
+            
+            
+            
+            navigationController?.pushViewController(viewController, animated: true)
+        }
+        
     }
+    
 }
