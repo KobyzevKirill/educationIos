@@ -33,12 +33,22 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U8a-BX-vQ5">
+                                        <rect key="frame" x="158.5" y="146" width="58" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="onButtonPush:" destination="dfi-AN-yMi" eventType="touchUpInside" id="TJg-rI-VGe"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="U8a-BX-vQ5" secondAttribute="bottom" constant="465" id="HpD-Ex-Jlv"/>
                                     <constraint firstItem="U5P-GU-7Eg" firstAttribute="top" secondItem="55I-b3-zQl" secondAttribute="top" constant="42" id="N36-Zy-Elp"/>
                                     <constraint firstItem="x0W-Mt-BFW" firstAttribute="top" secondItem="55I-b3-zQl" secondAttribute="top" constant="44" id="aDG-hB-j35"/>
                                     <constraint firstItem="U5P-GU-7Eg" firstAttribute="leading" secondItem="x0W-Mt-BFW" secondAttribute="trailing" constant="8" id="biI-Cd-Nte"/>
                                     <constraint firstItem="x0W-Mt-BFW" firstAttribute="leading" secondItem="55I-b3-zQl" secondAttribute="leading" constant="8" id="h19-CV-hXv"/>
+                                    <constraint firstItem="U8a-BX-vQ5" firstAttribute="centerX" secondItem="55I-b3-zQl" secondAttribute="centerX" id="wHY-RI-zbY"/>
                                     <constraint firstAttribute="trailing" secondItem="U5P-GU-7Eg" secondAttribute="trailing" constant="8" id="x0u-ez-eG8"/>
                                     <constraint firstAttribute="bottom" secondItem="x0W-Mt-BFW" secondAttribute="bottom" constant="576" id="x5W-tl-8uh"/>
                                 </constraints>

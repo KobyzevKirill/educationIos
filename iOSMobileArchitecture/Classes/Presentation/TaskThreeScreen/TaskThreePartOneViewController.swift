@@ -18,11 +18,17 @@ class TaskThreePartOneViewController: UIViewController {
         super.viewDidLoad()
     }
     
+    let getInfoAboutChangedProperties = { (exampleOfStruct: Phone) -> String in
+        
+        return ""
+    }
+    
     @IBAction func onButton1Push(_ sender: UIButton) {
         exampleOfPhone.color = "Gray"
         let storyboard = UIStoryboard(name: "TaskThreePartTwoViewController", bundle: nil)
-        if let viewController = storyboard.instantiateInitialViewController() {
+        if let viewController = storyboard.instantiateInitialViewController() as? TaskThreePartTwoViewController {
             
+            viewController.exampleOfPhone = exampleOfPhone
             
             
             navigationController?.pushViewController(viewController, animated: true)
