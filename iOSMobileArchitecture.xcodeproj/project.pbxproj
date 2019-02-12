@@ -115,11 +115,10 @@
 		9609994421998D97006B6D62 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				CE28C2A82212CA5400883930 /* Lab3Storyboard */,
+				CE28C2A72212CA4400883930 /* Lab2Storyboard */,
+				CE28C2A62212CA1C00883930 /* Lab1Storyboard */,
 				9609995221998FFE006B6D62 /* LaunchScreen.storyboard */,
-				CEC8D90F21E77B6B0030833B /* TaskOneStoryboard.storyboard */,
-				CECB630121EF58AD00AEE333 /* TaskTwoViewController.storyboard */,
-				CE23DCDE21F1FE6F00B1DE49 /* TaskThreePartOneViewController.storyboard */,
-				CEB3A5142209A01600EE0051 /* TaskThreePartTwoViewController.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -198,6 +197,31 @@
 				96B0E7AF21B00CAF001AD6FF /* TaskFive */,
 			);
 			path = TaskFiveScreen;
+			sourceTree = "<group>";
+		};
+		CE28C2A62212CA1C00883930 /* Lab1Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CEC8D90F21E77B6B0030833B /* TaskOneStoryboard.storyboard */,
+			);
+			path = Lab1Storyboard;
+			sourceTree = "<group>";
+		};
+		CE28C2A72212CA4400883930 /* Lab2Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CECB630121EF58AD00AEE333 /* TaskTwoViewController.storyboard */,
+			);
+			path = Lab2Storyboard;
+			sourceTree = "<group>";
+		};
+		CE28C2A82212CA5400883930 /* Lab3Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CE23DCDE21F1FE6F00B1DE49 /* TaskThreePartOneViewController.storyboard */,
+				CEB3A5142209A01600EE0051 /* TaskThreePartTwoViewController.storyboard */,
+			);
+			path = Lab3Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

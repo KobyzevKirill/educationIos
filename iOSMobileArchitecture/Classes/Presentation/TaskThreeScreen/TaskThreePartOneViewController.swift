@@ -14,26 +14,27 @@ class TaskThreePartOneViewController: UIViewController {
     
     var exampleOfPhone = Phone()
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-    
-    let getInfoAboutChangedProperties = { (exampleOfStruct: Phone) -> String in
+    let giveInfoAboutChangedProperties = { (info: String) -> () in
         
-        return ""
     }
     
     @IBAction func onButton1Push(_ sender: UIButton) {
-        exampleOfPhone.color = "Gray"
         let storyboard = UIStoryboard(name: "TaskThreePartTwoViewController", bundle: nil)
         if let viewController = storyboard.instantiateInitialViewController() as? TaskThreePartTwoViewController {
             
             viewController.exampleOfPhone = exampleOfPhone
-            
+            viewController.transportInfoAboutChangedProperties = { [weak self] (infoAboutChanged, exampleOfPhone) -> () in
+                self?.labelOfChangedInfo.text = infoAboutChanged
+                self?.exampleOfPhone = exampleOfPhone
+            }
             
             navigationController?.pushViewController(viewController, animated: true)
         }
         
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
     }
     
 }

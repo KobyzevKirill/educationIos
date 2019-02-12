@@ -14,24 +14,34 @@ protocol test {
 
 class TaskThreePartTwoViewController: UIViewController {
 
+    @IBOutlet weak var colorTextView: UITextView!
+    @IBOutlet weak var dateTextView: UITextView!
     var exampleOfPhone = Phone()
     //var delegate: test?
-    @IBOutlet weak var FirstField: UITextField!
-    
+    var transportInfoAboutChangedProperties: ((String, Phone) -> ())?
     
     @IBAction func onButtonPush(_ sender: UIButton) {
-        exampleOfPhone.color = FirstField.text
-        let storyboard = UIStoryboard(name: "TaskThreePartOneViewController", bundle: nil)
-        if let viewController = storyboard.instantiateInitialViewController() as? TaskThreePartOneViewController {
-            viewController.getInfoAboutChangedProperties(exampleOfPhone)
-            
-            navigationController?.popViewController(animated: true)
+        
+        var infoAboutChanged = ""
+        if (colorTextView.text != exampleOfPhone.color) {
+            exampleOfPhone.color = colorTextView.text
+            infoAboutChanged += "Color\n"
+        }
+        if (dateTextView.text != exampleOfPhone.dateOfMaking) {
+            exampleOfPhone.dateOfMaking = dateTextView.text
+            infoAboutChanged += "Date of making\n"
+        }
+        
+        transportInfoAboutChangedProperties?(infoAboutChanged, exampleOfPhone)
+        
+        navigationController?.popViewController(animated: true)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         //delegate?.didSet()
-        FirstField.text = exampleOfPhone.color
+        colorTextView.text = exampleOfPhone.color
+        dateTextView.text = exampleOfPhone.dateOfMaking
     }
-    
+
 }

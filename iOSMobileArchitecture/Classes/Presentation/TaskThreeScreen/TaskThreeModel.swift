@@ -9,9 +9,9 @@
 import UIKit
 
 struct Phone {
-    var dateOfMaking: String?
+    var dateOfMaking: String? = ""
     var camera: Int?
-    var color: String?
-    var manufacturer: String?
-    var operatingSystem: String?
+    var color: String? = ""
+    var manufacturer: String? = ""
+    var operatingSystem: String? = ""
 }
