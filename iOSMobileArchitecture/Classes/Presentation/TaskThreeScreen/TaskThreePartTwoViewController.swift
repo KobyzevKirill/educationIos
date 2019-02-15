@@ -16,8 +16,11 @@ class TaskThreePartTwoViewController: UIViewController {
 
     @IBOutlet weak var colorTextView: UITextView!
     @IBOutlet weak var dateTextView: UITextView!
+    @IBOutlet weak var manufacturerTextView: UITextView!
+    @IBOutlet weak var systemTextView: UITextView!
+    @IBOutlet weak var numberTextView: UITextView!
+    
     var exampleOfPhone = Phone()
-    //var delegate: test?
     var transportInfoAboutChangedProperties: ((String, Phone) -> ())?
     
     @IBAction func onButtonPush(_ sender: UIButton) {
@@ -32,6 +35,22 @@ class TaskThreePartTwoViewController: UIViewController {
             infoAboutChanged += "Date of making\n"
         }
         
+        if (manufacturerTextView.text != exampleOfPhone.manufacturer) {
+            exampleOfPhone.manufacturer = manufacturerTextView.text
+            infoAboutChanged += "Manufacturer\n"
+        }
+        if (systemTextView.text != exampleOfPhone.operatingSystem) {
+            exampleOfPhone.operatingSystem = systemTextView.text
+            infoAboutChanged += "operating System\n"
+        }
+        if let number = Int(numberTextView.text) {
+            if number != exampleOfPhone.number {
+                exampleOfPhone.number = number
+                infoAboutChanged += "Number\n"
+            }
+        }
+        
+        
         transportInfoAboutChangedProperties?(infoAboutChanged, exampleOfPhone)
         
         navigationController?.popViewController(animated: true)
@@ -42,6 +61,11 @@ class TaskThreePartTwoViewController: UIViewController {
         //delegate?.didSet()
         colorTextView.text = exampleOfPhone.color
         dateTextView.text = exampleOfPhone.dateOfMaking
+        manufacturerTextView.text = exampleOfPhone.manufacturer
+        systemTextView.text = exampleOfPhone.operatingSystem
+        if let number = exampleOfPhone.number {
+            numberTextView.text = "\(number)"
+        }
     }
 
 }

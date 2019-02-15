@@ -31,7 +31,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Button1"/>
                                 <connections>
-                                    <action selector="onButton1Push:" destination="MyZ-4J-6QI" eventType="touchUpInside" id="xX7-aP-Vqq"/>
+                                    <action selector="onButton1Push:" destination="MyZ-4J-6QI" eventType="touchUpInside" id="7hd-VP-7ny"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yq9-QL-1ju">
+                                <rect key="frame" x="153" y="206" width="70" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Button2"/>
+                                <connections>
+                                    <action selector="onButton2Push:" destination="MyZ-4J-6QI" eventType="touchUpInside" id="kD7-63-1Wl"/>
                                 </connections>
                             </button>
                         </subviews>
