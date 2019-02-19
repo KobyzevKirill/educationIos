@@ -10,8 +10,6 @@ import UIKit
 
 class TaskFourViewController: UIViewController {
     
-    let arr = Array(repeating: 0, count: 10)
-    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
