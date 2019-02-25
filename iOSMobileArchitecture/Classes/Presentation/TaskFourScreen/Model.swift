@@ -13,6 +13,10 @@ protocol Window {
     var description: String { get }
 }
 
+protocol Fruit {
+    var description: String {get}
+}
+
 class WoodenWindow: Window {
     let material = "Дерево"
     var description: String {
@@ -20,9 +24,8 @@ class WoodenWindow: Window {
     }
 }
 
-class PlasticWindow: Window {
-    let material = "Пластик"
+class Apple: Fruit {
     var description: String {
-        return "Это окно сделано из материала: \(material)."
+        return "Это яблоко."
     }
 }

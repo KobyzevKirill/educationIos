@@ -8,12 +8,17 @@
 
 import Foundation
 
-protocol FactoryWindow {
+protocol AbstractFactory {
     func makeWindow() -> Window
+    func makeFruit() -> Fruit
 }
 
-class WoodenOrPlasticWindowFactory: FactoryWindow {
+class ConcreteFactory: AbstractFactory {
+    static let shared = ConcreteFactory()
     func makeWindow() -> Window {
         return WoodenWindow()
+    }
+    func makeFruit() -> Fruit {
+        return Apple()
     }
 }

@@ -23,6 +23,7 @@
 		CE3EB58E22009A2000675F35 /* TaskThreePartOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EB58D22009A2000675F35 /* TaskThreePartOneViewController.swift */; };
 		CE3EB59122009A4500675F35 /* TaskThreePartTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EB59022009A4500675F35 /* TaskThreePartTwoViewController.swift */; };
 		CE56A51822203BBE0057D026 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56A51722203BBE0057D026 /* Factory.swift */; };
+		CE8CCCD5222436DA000EDA70 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CCCD4222436DA000EDA70 /* TableViewCell.swift */; };
 		CEB3A5152209A01600EE0051 /* TaskThreePartTwoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB3A5142209A01600EE0051 /* TaskThreePartTwoViewController.storyboard */; };
 		CEB3A5172209A7FC00EE0051 /* TaskThreeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB3A5162209A7FC00EE0051 /* TaskThreeModel.swift */; };
 		CEC8D91021E77B6B0030833B /* TaskOneStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC8D90F21E77B6B0030833B /* TaskOneStoryboard.storyboard */; };
@@ -55,6 +56,7 @@
 		CE3EB58D22009A2000675F35 /* TaskThreePartOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskThreePartOneViewController.swift; sourceTree = "<group>"; };
 		CE3EB59022009A4500675F35 /* TaskThreePartTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskThreePartTwoViewController.swift; sourceTree = "<group>"; };
 		CE56A51722203BBE0057D026 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		CE8CCCD4222436DA000EDA70 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		CEB3A5142209A01600EE0051 /* TaskThreePartTwoViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TaskThreePartTwoViewController.storyboard; sourceTree = "<group>"; };
 		CEB3A5162209A7FC00EE0051 /* TaskThreeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskThreeModel.swift; sourceTree = "<group>"; };
 		CEC8D90F21E77B6B0030833B /* TaskOneStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TaskOneStoryboard.storyboard; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 				CEDD470F2216EAD20084AA47 /* TaskFourViewController.swift */,
 				CEDD47112216EB9F0084AA47 /* Model.swift */,
 				CE56A51722203BBE0057D026 /* Factory.swift */,
+				CE8CCCD4222436DA000EDA70 /* TableViewCell.swift */,
 			);
 			path = TaskFourScreen;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 				CEDD47102216EAD20084AA47 /* TaskFourViewController.swift in Sources */,
 				CE3EB58E22009A2000675F35 /* TaskThreePartOneViewController.swift in Sources */,
 				CEB3A5172209A7FC00EE0051 /* TaskThreeModel.swift in Sources */,
+				CE8CCCD5222436DA000EDA70 /* TableViewCell.swift in Sources */,
 				CEDD47122216EB9F0084AA47 /* Model.swift in Sources */,
 				9663320821C8E27D004ABCA2 /* TaskSixProtocol.swift in Sources */,
 			);
