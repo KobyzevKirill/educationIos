@@ -12,8 +12,7 @@ class TableViewCell: UITableViewCell {
 
     @IBOutlet weak var infoLabel: UILabel!
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
+    func bind(text: String) {
+        infoLabel.text = text
     }
-
 }

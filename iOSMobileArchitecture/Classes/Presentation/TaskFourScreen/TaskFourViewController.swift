@@ -17,10 +17,11 @@ class TaskFourViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         generateObjects()
+        tableView.dataSource = self
     }
     
     func generateObjects() {
-        let randomInt = Int.random(in: 0...5)
+        let randomInt = Int.random(in: 0...10)
         for _ in  0...randomInt {
             let someFruit = ConcreteFactory.shared.makeFruit()
             objects.append(someFruit)
@@ -38,6 +39,16 @@ extension TaskFourViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        let identifier = "TableViewCell"
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath) as! TableViewCell
+        
+        if let object = objects[indexPath.row] as? Fruit {
+            cell.bind(text: object.description)
+        } else if let object = objects[indexPath.row] as? Window {
+            cell.bind(text: object.description)
+        }
+        
+        return cell
     }
 }
