@@ -17,6 +17,8 @@ class TaskSevenViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        imageView.layer.cornerRadius = 100
+        imageView.clipsToBounds = true
     }
 
     @IBAction func onButtonPush(_ sender: UIButton) {
