@@ -16,7 +16,7 @@ class TaskSixViewController: UIViewController {
         
         // Выполнить подписку на последовательность (см. задание в Misc/TaskSix). В логи распечатать значение, переданное на вход методу, выполнив подписку на последовательность.
         let value = ["Cat","Dog","Pig"]
-        Observable<Any>
+        Observable<[String]>
             .myGenerate(value: value)
             .do(onSubscribe: { print("Someone has been subsribed on Observable1\n") })
             .subscribe(onNext: { print("\($0)\n") }, onCompleted: { print("Observable completed\n") }, onDisposed: { print("Observable disposed\n") })
