@@ -18,6 +18,9 @@ class TaskFourViewController: UIViewController {
         
         TaskFourService
             .generate()
+            .subscribe(onNext: { print("\($0)\n") }, onError: { print("\($0)\n") },
+                       onCompleted: { print("Observable completed\n") }, onDisposed: { print("Observable disposed\n") })
+            .disposed(by: disposeBag)
     }
     
     private let disposeBag = DisposeBag()

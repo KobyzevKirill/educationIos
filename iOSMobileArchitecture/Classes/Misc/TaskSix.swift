@@ -12,4 +12,11 @@ import RxCocoa
 extension ObservableType {
     
     // Реализовать статический метод, который создает последовательность. На вход методу передается значение (обобщенный тип), которое эмитит последовательность и затем завершается.
+    static func myGenerate<T>(value: T) -> Observable<T> {
+        return Observable.create { observer in
+            observer.onNext(value)
+            observer.onCompleted()
+            return Disposables.create()
+        }
+    }
 }
